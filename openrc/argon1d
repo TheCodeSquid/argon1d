@@ -1,0 +1,9 @@
+#!/sbin/openrc-run
+command="/usr/bin/argon1d"
+command_args="service"
+pidfile="/run/argon1d/argon1d.pid"
+description="Argon ONE fan service"
+
+depend() {
+	need localmount
+}
