@@ -2,6 +2,10 @@
 name = "argon1d"
 version = "0.1.0"
 edition = "2021"
+authors = ["Diego Sesmas Estrada <diegos7167@gmail.com>"]
+license = "MIT"
+description = "Argon ONE case control daemon"
+publish = false
 
 [profile.release]
 strip = true
